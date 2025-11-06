@@ -27,6 +27,6 @@ def preprocesar_datos(ruta_csv):
 
 if __name__ == "__main__":
     
-    # Ejemplo 
+    # Ejemplo para preprocesamiento 
     df = preprocesar_datos("datos.csv")
     df.to_csv("datos_procesados.csv", index=False)
