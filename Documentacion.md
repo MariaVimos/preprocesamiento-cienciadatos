@@ -31,3 +31,23 @@ PULL REQUEST Y FUSION
 Se elimino la rama feature-preprocesamiento tanto en GitHub como localmente 
 
 AUTOMATIZACION CON GITHUB ACTIONS 
+
+Se creo un wokflow basico que ayuda a verificar la ejecucion de preprocesamiento.py cada vez que se hace un push o main
+- Cada vez que se usa psuh o main se activa
+-Instala Python3.10
+-Instala las dependencias necesarias pandas y scikit learn
+-Ejecuta el archivo 
+
+
+EVIDENCIAS
+![alt text](Evidencias/comandogit.jpeg)
+![alt text](Evidencias/gitestatus.jpeg)
+![alt text](Evidencias/gitPull.jpeg)
+![alt text](Evidencias/Pullrequest.jpeg)
+![alt text](Evidencias/mergepushrequest.jpeg)
+![alt text](Evidencias/merged.jpeg)
+![alt text](Evidencias/codeGitHubActions.jpeg)
+![alt text](Evidencias/GitHubActions.jpeg)
+
+ENLACE DEL REPOSITORIO:
+https://github.com/MariaVimos/preprocesamiento-cienciadatos.git
